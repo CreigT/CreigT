@@ -4,18 +4,45 @@ Central source of truth for applications and major project repositories owned un
 
 **Registry established:** August 14, 2026  
 **Owner:** CreigT / CREIGNIFICENT LLC  
-**GitHub inventory:** 40 repositories — 22 public, 18 private
+**GitHub inventory:** 41 repositories — 22 public, 19 private
 
-> Statuses: **LIVE → DEPLOYMENT READY → ACTIVE DEVELOPMENT → LOCAL / HYBRID → DORMANT → SUPERSEDED**
+> Statuses: **FOUNDATION → LIVE → DEPLOYMENT READY → ACTIVE DEVELOPMENT → LOCAL / HYBRID → DORMANT → SUPERSEDED**
 
 ## Status Definitions
 
+- **FOUNDATION** — private shared development foundation used to create and govern isolated applications; it is not itself treated as one public application deployment.
 - **LIVE** — confirmed deployed and accessible through a production hosting platform.
 - **DEPLOYMENT READY** — application is substantially built and has a credible deployment path, but production launch or final validation remains.
 - **ACTIVE DEVELOPMENT** — meaningful current project that still requires engineering or integration work.
 - **LOCAL / HYBRID** — intentionally operates partly or primarily on the user's local machine.
 - **DORMANT** — preserved project or experiment that is not a current priority.
 - **SUPERSEDED** — older, duplicate, placeholder, or replaced repository that should not be used for current development or deployment.
+
+---
+
+# FOUNDATION
+
+| Foundation | Repository | Visibility | Created | Purpose | Current State | Next Action |
+|---|---|---|---|---|---|---|
+| HybridSecure AI Systems Foundation | `-hybridsecure-ai-systems` | Private | Aug 14, 2026 | Secure AI application foundation for isolated, production-ready business applications with AI decision controls, security guardrails, audit logging, human approval, deployment standards, and reusable shared services. | Full verified foundation published to `main`. Foundation guardrails, application isolation standard, AI gateway security, security policy, `.env.example`, Docker support, tests, and shared modules are present. | Keep private; add/maintain CI and security checks; use only shared foundation modules for future apps. |
+
+## Applications Built Through HybridSecure
+
+| App # | Application | Repository / Boundary | Status | Purpose | Isolation / Placement | Next Action |
+|---|---|---|---|---|---|---|
+| 1 | HybridSecure Business Intake | Root application in `-hybridsecure-ai-systems` | ACTIVE DEVELOPMENT / PROTECTED | Public landing page and secure inquiry workflow with Firebase verification, deterministic risk rules, real configured Ollama structured analysis, human review, and redacted audit logging. | Protected root application. Its routes, UI, tests, configuration, data conventions and deployment behavior must remain intact. | Verify full regression suite and production infrastructure before deployment. |
+| 2 | SecureQuote Lite | `applications/securequote_lite/` inside `-hybridsecure-ai-systems` | ACTIVE DEVELOPMENT / PROTECTED | Secure review-first quoting workflow with structured intake, AI-assisted analysis, policy checks, human approval, and auditability. | Correctly isolated under its own application directory with its own business, security, tests, web UI and workflow files. | Complete production integrations and deployment validation without changing App #1. |
+
+### HybridSecure Standing Rules
+
+- The foundation stays private.
+- Every application is standalone and isolated from every other application.
+- Shared capabilities live only in explicit foundation/shared modules.
+- One application may not overwrite, refactor, rename, move, or depend unsafely on another application's code, routes, data, configuration, secrets, tests or runtime behavior.
+- Existing applications are protected by default.
+- A foundation change must remain backward-compatible and be verified against all applications before release.
+- AI output is untrusted; deterministic policy checks and explicit human authorization remain required for sensitive actions.
+- Do not mark an application LIVE until an actual production deployment and production URL are verified.
 
 ---
 
@@ -118,9 +145,11 @@ Central source of truth for applications and major project repositories owned un
 
 | Measure | Current Position |
 |---|---:|
-| Total GitHub repositories | 40 |
+| Total GitHub repositories | 41 |
 | Public repositories | 22 |
-| Private repositories | 18 |
+| Private repositories | 19 |
+| HybridSecure foundations | 1 |
+| HybridSecure protected applications | 2 |
 | Confirmed major live Vercel applications | 3 |
 | Strong deployment-ready / near-ready candidates | 6+ |
 | Active major AI / cybersecurity / business systems | 10+ |
@@ -130,14 +159,15 @@ Central source of truth for applications and major project repositories owned un
 
 ## Immediate Priority Order
 
-1. **Maintain LIVE:** Missing Money Method, JoyDrop, AEDSHIELDAI.
-2. **Deploy next:** PQC Migration Agent or ContentForge AI Pro after final verification.
-3. **Complete remediation:** ContractShield AI.
-4. **Productionize:** AI ShadowGuard.
-5. **Audit for revival/deployment:** GHOSTMODEAI and CouponForge AI.
-6. **Consolidate CryptoMentions:** identify one canonical repository/product and retire duplicates.
-7. **Archive verified obsolete repositories:** archive rather than delete.
-8. **Update this registry whenever an application's status, URL, repository, visibility, or deployment changes.**
+1. **Protect and maintain foundation:** HybridSecure AI Systems Foundation and both protected applications.
+2. **Maintain LIVE:** Missing Money Method, JoyDrop, AEDSHIELDAI.
+3. **Deploy next:** PQC Migration Agent or ContentForge AI Pro after final verification.
+4. **Complete remediation:** ContractShield AI.
+5. **Productionize:** AI ShadowGuard.
+6. **Audit for revival/deployment:** GHOSTMODEAI and CouponForge AI.
+7. **Consolidate CryptoMentions:** identify one canonical repository/product and retire duplicates.
+8. **Archive verified obsolete repositories:** archive rather than delete.
+9. **Update this registry whenever an application's status, URL, repository, visibility, foundation relationship, or deployment changes.**
 
 ## Registry Rule for Every New Application
 
@@ -145,6 +175,7 @@ Every new application should receive a registry entry containing:
 
 - Application name
 - GitHub repository
+- Foundation relationship, if any
 - Public/private visibility
 - Creation date
 - One-sentence purpose
@@ -154,6 +185,7 @@ Every new application should receive a registry entry containing:
 - Hosting/deployment platform
 - Security/testing status
 - Required external credentials or dependencies
+- Application boundary and isolation namespace, when built through HybridSecure
 - Next action
 - Canonical/superseded relationship, when applicable
 
