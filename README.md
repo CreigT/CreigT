@@ -1,103 +1,128 @@
-# Terrence Creig | AI + Cybersecurity + Business
+# Terrence Creig
 
-I build practical systems at the intersection of **Artificial Intelligence, Cybersecurity, and Business**.
+### AI Automation • Cybersecurity • Secure Systems • Business Technology
 
-My focus is on creating secure, useful, and scalable applications that solve real problems: business automation, defensive cybersecurity, AI-assisted decision tools, and public utility apps.
+I build practical software at the intersection of **artificial intelligence, cybersecurity, automation, and real-world business operations**.
 
-I am also the owner of **Creignificent LLC**, where I apply automation and AI to real business operations.
+I am a cybersecurity student at **Southern New Hampshire University (SNHU)** and the owner of **Creignificent LLC**. My work focuses on turning ideas into usable systems: AI applications, security tooling, business automation, agentic workflows, and public utility software.
 
-## What I Build
-
-- AI-powered business tools and workflow automation
-- Defensive cybersecurity labs and research projects
-- Secure AI applications with authentication, logging, validation, and least-privilege controls
-- Public utility apps designed to help everyday users
-- Local-first and API-connected AI agent experiments
-
-## Featured Projects
-
-### Missing Money Method
-Free public tool that helps people locate official unclaimed-property resources and search for money they may have forgotten about.
-
-- Live app: https://money-missing-method.vercel.app
-- Repository: https://github.com/CreigT/money-missing-method-
-- No login or account required
-- Vercel Analytics enabled
-
-### ContractShield AI
-AI-assisted contract review application for small business owners. It provides plain-English summaries, risk levels, red flags, key terms, and recommended questions before signing.
-
-Repository: https://github.com/CreigT/ContractShield-AI
-
-### Cybersecurity Journey
-My hands-on cybersecurity portfolio covering defensive labs, vulnerability testing, prompt-injection research, governance, responsible disclosure, and security education.
-
-Repository: https://github.com/CreigT/Cybersecurity-journey
-
-### AI Agent Lab
-Defensive cybersecurity research assistant built with Python, guardrails, structured logging, CVE summarization, reporting, and modular agent architecture.
-
-Repository: https://github.com/CreigT/ai-agent-lab
-
-### AI ShadowGuard
-AI and cybersecurity project focused on practical defensive security and AI-risk experimentation.
-
-Repository: https://github.com/CreigT/ai-shadowguard
-
-### Creignificent Automation
-Business automation work connected to real operations at Creignificent LLC.
-
-Repository: https://github.com/CreigT/creignificent-automation
-
-## Current Direction
-
-I am continuing to build toward a professional practice that combines:
-
-**AI + Cybersecurity + Business Operations**
-
-The goal is not simply to experiment with AI tools, but to design, test, secure, and deploy systems that create measurable value.
-
-## Technology Areas
-
-- Python
-- JavaScript / TypeScript
-- Next.js
-- Firebase
-- Vercel
-- GitHub
-- Google Workspace automation
-- AI APIs and local models
-- Authentication and authorization
-- Audit logging
-- Input validation
-- Defensive cybersecurity tooling
-
-## Security Principles
-
-Projects are built with an emphasis on:
-
-- Least privilege
-- Human approval for sensitive actions
-- Secure secret handling
-- Input validation
-- Auditability
-- Defensive use
-- Data minimization
-- Responsible AI deployment
-
-## About Me
-
-- Business owner: **Creignificent LLC**
-- Cybersecurity student
-- Builder of AI agents, automation workflows, cybersecurity applications, and public utility tools
-- Focused on real-world deployment, continuous learning, and practical problem solving
-
-## Portfolio Philosophy
-
-**Learn. Build. Secure. Deploy. Improve.**
-
-Public-facing projects and portfolio work are supported by **Creignificent LLC**.
+My goal is simple: **build systems that work, secure them properly, and solve real problems.**
 
 ---
+
+## Featured Work
+
+### WardenAI
+Zero-trust control plane for AI and automated workflows with policy-based **ALLOW / REVIEW / DENY** decisions, approval gates, authentication, validation, and audit-oriented controls.
+
+**Repository:** https://github.com/CreigT/WardenAi
+
+### God's Eye CyberOps
+Cybersecurity operations project focused on translating threat intelligence into understandable, actionable security information.
+
+**Repository:** https://github.com/CreigT/gods-eye-view-cyberops
+
+### Persistent Multi-Agent Memory Fabric (PAMF)
+Shared memory architecture for multi-agent AI systems with structured operational memory, policy controls, and cross-agent continuity.
+
+**Repository:** https://github.com/CreigT/Persistent-Multi-Agent-Memory-Fabric-PAMF-
+
+### SecureQuote Lite
+Secure AI-assisted quoting workflow built around controlled intake, AI processing, human approval, and business automation.
+
+**Repository:** https://github.com/CreigT/securequote-lite
+
+### TowFinder Method
+Public utility application designed to help users navigate official towing and vehicle-recovery resources.
+
+**Repository:** https://github.com/CreigT/TowFinderMethod  
+**Live:** https://towfinder-method.vercel.app/
+
+### AutoDoc AI
+AI documentation system designed to turn source code into structured technical documentation through extraction, explanation, validation, human review, and publishing workflows.
+
+**Repository:** https://github.com/CreigT/Auto_docAi
+
+---
+
+## What I Work On
+
+- AI application development
+- AI agents and workflow orchestration
+- Security automation
+- Secure software architecture
+- Zero-trust authorization and approval controls
+- Business process automation
+- Python automation
+- API integrations
+- Authentication and authorization
+- Input validation and audit logging
+- Cloud and serverless applications
+- Practical cybersecurity labs and tooling
+
+---
+
+## Technology
+
+**Languages:** Python, JavaScript, TypeScript  
+**Application Development:** Next.js, APIs, serverless workflows  
+**Cloud / Deployment:** Vercel, Firebase, GitHub  
+**Automation:** Google Workspace, Apps Script, Python  
+**AI:** AI APIs, local models, agentic workflows, structured AI pipelines  
+**Security:** least privilege, authorization gates, validation, audit logging, secure secret handling
+
+---
+
+## Engineering Principles
+
+I try to build around a few consistent rules:
+
+- **Fail closed** when authorization or validation is uncertain.
+- Keep sensitive actions behind **human approval** when appropriate.
+- Treat authentication and authorization as separate security controls.
+- Validate external and AI-generated inputs before execution.
+- Keep secrets out of source control.
+- Build logging and auditability into important workflows.
+- Prefer working systems over impressive-looking demos.
+- Do not claim a capability that the implementation cannot prove.
+
+---
+
+## Current Focus
+
+I am developing deeper expertise across:
+
+**AI Engineering → Security Automation → DevSecOps → AI Systems Architecture**
+
+I am especially interested in opportunities involving:
+
+- AI Automation Engineering
+- AI Application Development
+- Security Automation
+- DevSecOps
+- Cloud Automation
+- AI Systems Engineering
+- Solutions Engineering
+
+---
+
+## Business + Technology
+
+As the owner of **Creignificent LLC**, I also use software and automation to solve operational problems in a real service business. That gives my technical work a practical constraint:
+
+> Technology should create measurable value, reduce friction, improve security, or automate meaningful work.
+
+---
+
+## Learning in Public
+
+My GitHub also documents my continued development in cybersecurity, Python, AI engineering, and secure application architecture.
+
+**Cybersecurity Journey:** https://github.com/CreigT/Cybersecurity-journey  
+**AI Agent Lab:** https://github.com/CreigT/ai-agent-lab
+
+---
+
+### Learn. Build. Secure. Deploy. Improve.
 
 **Sponsored by CREIGNIFICENT LLC.**
